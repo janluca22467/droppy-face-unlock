@@ -1,0 +1,45 @@
+{
+  "id": "face-unlock",
+  "name": "Face Unlock",
+  "version": "1.0.0",
+  "summary": "Unlock your Mac with your face, right from the notch",
+  "description": "Face Unlock brings a Face ID style unlock to the Mac. Lock your Mac, press a key, look at the camera and blink: Face Unlock recognizes you, shows the scan in the notch and on the lock screen, and types your login password for you.\n\nYour face is set up with a guided scan of 60 photos from six angles and stays on this Mac. The password is kept in the Keychain. Face Unlock uses the regular camera, not depth sensing hardware, so treat it as a convenience rather than strong security.",
+  "category": "Productivity",
+  "kit": {
+    "abi": 1,
+    "minAPI": "1.19.0"
+  },
+  "minAppVersion": "15.3.0",
+  "capabilities": [
+    "camera",
+    "accessibility",
+    "hud",
+    "lock-screen"
+  ],
+  "surfaces": [
+    "settings-pane",
+    "hud",
+    "lock-screen-status"
+  ],
+  "icon": "FaceUnlock.icon",
+  "creator": {
+    "name": "Jan-Luca",
+    "kind": "community",
+    "url": "https://github.com/janluca22467",
+    "avatar": "Creator.png"
+  },
+  "source": {
+    "repository": "https://github.com/janluca22467/droppy-face-unlock",
+    "license": "MIT"
+  },
+  "screenshots": [],
+  "keywords": [
+    "face",
+    "unlock",
+    "face id",
+    "lock screen",
+    "camera",
+    "login",
+    "password"
+  ]
+}
